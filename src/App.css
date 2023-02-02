@@ -48,7 +48,7 @@
 .slide-content {
     text-align: left;
 
-    margin-left: 10%;
+    margin-left: 20px;
 }
 
 .slide-p1 {
@@ -75,11 +75,10 @@
     margin: 0;
   } */
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1120px) {
     .slide-img {
         width: 600vw;
-        height: 60vh;
-        /* height: 30vh; */
+        height: 40vh;
     }
 }
 
