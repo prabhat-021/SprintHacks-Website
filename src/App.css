@@ -66,8 +66,8 @@
 }
 
 .slide-img {
-    width: 100%;
-    height: 50vh;
+    width: 100vw;
+    height: 60vh;
     /* margin-right: 1.5% */
 }
 
@@ -77,8 +77,8 @@
 
 @media only screen and (max-width: 1020px) {
     .slide-img {
-        width: 100vw;
-        height: auto;
+        width: 600vw;
+        height: 60vh;
         /* height: 30vh; */
     }
 }
@@ -87,11 +87,13 @@
     .swip-slide {
         display: block;
     }
-.slide-content{
-    margin-top: 10%;
-}
+
+    .slide-content {
+        margin-top: 10%;
+    }
+
     .slide-img {
-        width: 100vw;
+        width: 80vw;
         height: 60vh;
         /* height: 30vh; */
     }
